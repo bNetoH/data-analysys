@@ -17,13 +17,13 @@ Este projeto demostra a utilização de chat com IA gpt4 versão gratuita para g
 
 - Usar o chatGPT da OpenAI para gerar scripts para implementar o projeto
 
-['extraction.png'](prompts/img/extration.png)
+['prompts/img/extraction.png'](prompts/img/extraction.png)
 
-['transformation.png'](prompts/img/transformation.png)
+['prompts/img/transformation.png'](prompts/img/transformation.png)
 
-['building_app.png'](prompts/img/building_app.png)
+['prompts/img/building_app.png'](prompts/img/building_app.png)
 
-['Loading_n_Visualization.png'](prompts/img/Loading_n_Visualization.png)
+['prompts/img/Loading_n_Visualization.png'](prompts/img/Loading_n_Visualization.png)
 
 ## Objetivos do Projeto
 
@@ -66,6 +66,10 @@ streamlit run scripts\app.py
 - clique no botão 'Executar Extração' e será executado o script extraction.py: função ler todos os arquivos .csv em raw_data e salvar um arquivo resultado.csv em processed_data com todos os dados das amostras.
 - clique no botão 'Executar Transformação' e será executado o script transformation.py: função ler os dados chamar a API para normalizar a base monetária das amostras, um novo arquivo com os dados normalizados será salvo em normalized_data.
 - clique no botão 'Limpar arquivos processados' e será executado o script cleanup.py: função remover os arquivos resultados de processed_data e normalized_data.
+
+['results.png'](results.png)
+
+['results-final.png'](result-final.png)
 
 ## TODO:
 
